@@ -1,0 +1,47 @@
+
+.box {
+    background-color: #ffffff;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    margin: 100 auto;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .2);
+}
+.mdl-cell.margin {padding: 50;}
+
+body {
+    background-image: linear-gradient(to right, #005ca2, #0d3291);
+}
+
+section {margin: 100 50;}
+
+header {
+    padding-top: 300px;
+    font-size: 50px;
+    font-family: 'GmarketSansMedium';
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 200px;
+}
+section {
+    font-size: 24px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {font-family: 'Noto Sans KR', sans-serif;}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
